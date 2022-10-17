@@ -83,18 +83,22 @@ ul {
 
 .header img {
     max-width: 400px;
+    
 }
 
 .header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row-reverse;
+
 }
 
 .boxes .container {
     display: flex;
     justify-content: space-between;
 }
+
 
 .box {
     flex: 1;
